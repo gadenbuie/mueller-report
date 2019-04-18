@@ -1,0 +1,24 @@
+---
+output: github_document
+---
+
+# The Redacted Mueller Report
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+
+A (very unclean) text extraction of the [Redacted Mueller Report](https://www.documentcloud.org/documents/5955210-Redacted-Mueller-Report.html).
+The text [was extracted](process_report.R) using [pdftools](https://github.com/ropensci/pdftools) from [ROpenSci](https://ropensci.org).
+
+```{r, message=FALSE, warning=FALSE}
+library(tidyverse)
+
+mueller_report <- read_csv("mueller_report.csv")
+
+mueller_report %>% 
+  filter(page == 195, between(line, 5, 18))
+```
+
+
+The redacted report, not included here, is available at: <https://www.documentcloud.org/documents/5955210-Redacted-Mueller-Report.html>.
