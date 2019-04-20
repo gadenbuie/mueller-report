@@ -14,4 +14,11 @@ mueller_report <- tibble(
   ungroup() %>% 
   select(page, line, text)
 
+# Fix Corney -> Comey
+mueller_report <-
+  mueller_report %>% 
+  mutate(
+    text = str_replace(text, "([Cc])orney", "\\1omey")
+  )
+
 write_csv(mueller_report, "mueller_report.csv")
