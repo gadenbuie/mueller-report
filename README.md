@@ -11,6 +11,9 @@ The text [was extracted](process_report.R) using
 [pdftools](https://github.com/ropensci/pdftools) from
 [ROpenSci](https://ropensci.org).
 
+The only cleaning of the data I’ve done was to replace references to
+`Corney` with `Comey`.
+
 ``` r
 library(tidyverse)
 
@@ -40,3 +43,7 @@ mueller_report %>%
 
 The redacted report, not included here, is available at:
 <https://www.documentcloud.org/documents/5955210-Redacted-Mueller-Report.html>.
+
+[Factbase](https://factba.se) has published a human-reviewed text
+version of the report at [https://
+f2.link/mr-sheet](https://f2.link/mr-sheet).
