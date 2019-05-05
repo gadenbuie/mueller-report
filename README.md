@@ -49,4 +49,4 @@ The text in this repository was extracted from the redacted report available at:
 There are a number of other projects and efforts to transcribe the DOJ's PDF version of the Mueller report into better text formats. The following projects are likely a better resources than this simple text extraction.
 
 * [Factbase](https://factba.se) has published a human-reviewed text version of the report at [https://f2.link/mr-sheet](https://f2.link/mr-sheet).
-* [Open Source Mueller Report](http://opensourcemuellerreport.com/) is an open source reproduction of the Mueller report into LaTex.
+* [Open Source Mueller Report](http://opensourcemuellerreport.com/) is an open source reproduction of the Mueller report into LaTeX.
