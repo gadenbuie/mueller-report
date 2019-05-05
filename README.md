@@ -41,9 +41,12 @@ mueller_report %>%
     ## 13   195    17 where the information consisted simply of the recounting of…
     ## 14   195    18 uncertain how courts would resolve those issues.
 
-The redacted report, not included here, is available at:
+The text in this repository was extracted from the redacted report available at:
 <https://www.documentcloud.org/documents/5955210-Redacted-Mueller-Report.html>.
 
-[Factbase](https://factba.se) has published a human-reviewed text
-version of the report at [https://
-f2.link/mr-sheet](https://f2.link/mr-sheet).
+## Other Projects and Versions
+
+There are a number of other projects and efforts to transcribe the DOJ's PDF version of the Mueller report into better text formats. The following projects are likely a better resources than this simple text extraction.
+
+* [Factbase](https://factba.se) has published a human-reviewed text version of the report at [https://f2.link/mr-sheet](https://f2.link/mr-sheet).
+* [Open Source Mueller Report](http://opensourcemuellerreport.com/) is an open source reproduction of the Mueller report into LaTex.
